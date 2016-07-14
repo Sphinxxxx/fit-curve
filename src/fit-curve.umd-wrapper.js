@@ -38,15 +38,15 @@
 })(this, function () {
 
 
-	/*
-		Insert fit-curve.core.js here.
-			* Transpile first if necessary, for examle here:
-			  https://babeljs.io/repl/ (Presets: es2015, es2015-loose, stage-2)
-		
-		Then minify with Google's Closure Compiler (settings included at the top of this file):
-		https://closure-compiler.appspot.com/home
-	*/
+    /*
+        Insert fit-curve.core.js here.
+            * Transpile first if necessary, for examle here:
+              https://babeljs.io/repl/ (Presets: es2015, es2015-loose, stage-2)
+        
+        Then minify with Google's Closure Compiler (settings included at the top of this file):
+        https://closure-compiler.appspot.com/home
+    */
 
-	
+    
     return fitCurve;
 });
