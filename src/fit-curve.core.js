@@ -120,6 +120,7 @@ function fitCurve(points, maxError) {
     var len = points.length,
         leftTangent =  createTangent(points[1], points[0]),
         rightTangent = createTangent(points[len - 2], points[len - 1]);
+    
     return fitCubic(points, leftTangent, rightTangent, maxError);
 }
 
