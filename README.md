@@ -15,9 +15,8 @@ Usage
 -----
 
 ```javascript
-var fitCurve = require('fitCurve');
 var points = [[0, 0], [10, 10], [10, 0], [20, 0]];
-var error = 50;  //Lower numbers give more accurate curves.
+var error = 50;  // Lower numbers give more accurate curves
 
 var bezierCurves = fitCurve(points, error);
 // bezierCurves[0] === [[0, 0], [20.27317402, 20.27317402], [-1.24665147, 0], [20, 0]]
